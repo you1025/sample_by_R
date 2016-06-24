@@ -11,7 +11,7 @@ for(i in 1:N) {
   # 選択を変更した場合の結果判定
   result <- ifelse(car==setdiff(1:3, c(choice, monty)), 1, 0)
   results <- c(results, result)
-#  results <- c(results, ifelse(car==choice, 1, 0))
+#  results <- c(results, ifelse(car==choice, 1, 0)) # 実際にはこれで十分
 }
 
 # 結果の表示
